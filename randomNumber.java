@@ -10,6 +10,8 @@ public class randomNumber{
 		num1 = number.nextInt(100);
 		//System.out.println(num1 +" ");
 		num2 = number.nextInt(100);
+
+		//butt
 		
 
 		//Name List for word problem to choose from
@@ -38,7 +40,7 @@ public class randomNumber{
 		int user;
 		int score;
 			for (int counter = 0; counter <= 10 ; counter++) { 
-					do{
+					
 						if (sub1 != sub2 && num1 > num2) {
 							problem = (name[sub1] + " has " + num1 + " " + things[objs] + ". "+ name[sub2] + " has "+ num2 + " " + things[objs] + ". How many more " + things[objs] + " does " + name[sub1] + " have than " + name[sub2] + " ?");
 							System.out.println(problem);
@@ -84,7 +86,7 @@ public class randomNumber{
 						if (sub1 == sub2 || num1 == num2){
 							System.out.println("These are equal");
 						}
-					} while (problem != problem)
+					   
 				}
 			
 
