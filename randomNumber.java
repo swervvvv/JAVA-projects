@@ -40,7 +40,7 @@ public class randomNumber{
 		int user;
 		int score;
 			for (int counter = 0; counter <= 10 ; counter++) { 
-					
+				 do{
 						if (sub1 != sub2 && num1 > num2) {
 							problem = (name[sub1] + " has " + num1 + " " + things[objs] + ". "+ name[sub2] + " has "+ num2 + " " + things[objs] + ". How many more " + things[objs] + " does " + name[sub1] + " have than " + name[sub2] + " ?");
 							System.out.println(problem);
@@ -86,7 +86,7 @@ public class randomNumber{
 						if (sub1 == sub2 || num1 == num2){
 							System.out.println("These are equal");
 						}
-					   
+					}while(counter != 10);  
 				}
 			
 
