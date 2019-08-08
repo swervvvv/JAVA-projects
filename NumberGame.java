@@ -26,10 +26,20 @@ public class NumberGame{
 			else 
 			{
 				answer = false;
-				System.out.println("wrong");
+				if (number > user) 
+				{
+					System.out.println("Wrong! Too Low");
+					counter += 1;
+				}
+				else if (number < user) 
+				{
+					System.out.println("Wrong! Too High");
+					counter += 1;
+				}
 
 			}
 		}
+		System.out.println("It took " + (counter + 1) + " guesses");
 		
 			
 		
